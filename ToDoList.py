@@ -4,7 +4,6 @@ from tkinter import messagebox, simpledialog
 from tkcalendar import DateEntry
 from tkinter import ttk
 
-
 #Date and Time
 from datetime import datetime, timedelta
 
@@ -13,19 +12,11 @@ tasks = []
 
 #Import the new save file JSON
 import json
-
-#File that stores the task
-#file_path = "Tasks.txt"
-
 # Categories
 categories = ["Personal", "Work", "Study", "Misc"]
 
 # Selected category (default to "Other")
 selected_category = None
-
-
-
-
 
 #Functions for Adding, Viewing and Completing Saved Task
 def add_task():
@@ -123,18 +114,8 @@ def change_color_scheme():
     for widget in [task_entry_label, due_date_entry_label, category_label, tasks_listbox_label]:
         widget.config(bg="lightblue", fg="black")
 
-#Line bellow is old code for the first file save
-#load_tasks_from_file()
-
 # Load existing tasks from file on startup
 tasks = load_tasks_from_file()
-
-
-
-
-
-
-
 
 # GUI Setup
 root = tk.Tk()
@@ -198,12 +179,6 @@ tasks_listbox.config(yscrollcommand=scrollbar.set)
 
 # Bind the on_closing function to the window close event
 root.protocol("WM_DELETE_WINDOW", on_closing)
-
-
-
-
-
-
 
 # Run the Tkinter event loop
 root.mainloop()
