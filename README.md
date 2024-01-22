@@ -1,4 +1,1 @@
-This area is for showing the public my coding projects as I progress, whilst furthering my understanding!
-Any constructive criticism is welcome!
-Any ideas to help me further my knowledge is also always appreciated!
-Live long and prosper!
+This platform serves as a showcase for my evolving coding projects, providing the public with insights into my continuous learning journey. I welcome constructive criticism as it helps refine my skills and enhance the quality of my work. Additionally, any ideas to expand my knowledge are always appreciated and contribute to my professional growth. Together, let's strive for excellence in coding, fostering a spirit of continuous improvement. Live long and prosper! 🖖
